@@ -19,11 +19,12 @@ li {
 	text-align: center;
 }
 
-#title {
+.title {
 	text-align: center;
-	margin: 10px;
+	margin: 20px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 25px;
+    padding-top: 25px;
 }
 
 .img {
@@ -32,18 +33,23 @@ li {
 
 p {
 	text-align: justify;
+	padding-bottom: 25px;
+	padding-right: 25px;
+	padding-left: 25px;
 }
 
-.1 {
-	background: :blue;
+#first {  
+
+	background-color: blue;
+}
+
+
+#second {
+	background-color: pink;
 
 }
-.2 {
-	background: pink;
-
-}
-.3 {
-	background: blue;
+#third {
+	background-color: blue;
 
 }
 
