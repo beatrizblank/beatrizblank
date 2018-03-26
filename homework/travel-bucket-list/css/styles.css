@@ -19,7 +19,7 @@ li {
 	text-align: center;
 }
 
-.title {
+#title {
 	text-align: center;
 	margin: 10px;
     font-weight: bold;
@@ -35,14 +35,15 @@ p {
 }
 
 .1 {
-	background: :;
+	background: :blue;
 
 }
 .2 {
-	background: :;
+	background: pink;
 
 }
 .3 {
-	background: :;
+	background: blue;
 
 }
+
