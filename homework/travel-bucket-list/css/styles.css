@@ -1,21 +1,17 @@
 h1 {
 	color: white;
 	text-align: center;
-	font-family: helvetica 10px;
+	font-family: lora;
     background-color: pink;
 	padding: 20px;
 	border-style: none;
-	margin: 5px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
-ul {
-
-  list-style-type: none;
-
-}
-
-li {
-	display: inline;
+.place {
+	display: inline-block;
 	text-align: center;
 }
 
@@ -41,7 +37,9 @@ p {
 #first {  
 
 	background-color: blue;
-}
+	margin-bottom: 45px;
+
+	}
 
 
 #second {
@@ -51,5 +49,33 @@ p {
 #third {
 	background-color: blue;
 
+}
+
+#first, #second, #third {
+	font-family: lora;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#Maui {
+	margin-left: 550px;
+}
+
+#Reykjavik {
+	margin-right: 25px;
+	margin-left: 25px;
+}
+
+#Aspen {
+	margin-right: 550px;
+}
+
+#all-places {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+footer {
+
+	text-align: center;
 }
 
