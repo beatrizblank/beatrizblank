@@ -1,0 +1,13 @@
+body {
+	font-family: Lato;
+}
+
+.blogtitle {
+	color: #dd0000;
+
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+}
