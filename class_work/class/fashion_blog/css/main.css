@@ -13,9 +13,15 @@ header {
 	color: #444444;
     font-family: lato;
     line-height: 1.5;
+
+}
+
+ul {
+	padding: 0;
 }
 h2 {
 	color:black;
+	font-family: ;
 }
 
 li {
@@ -25,19 +31,38 @@ li {
 
 }
 
+
 footer {
-	font-size: 5px;
-	font-family: Lato 700 italic;
+	font-size: 10px;
+	font-family: Lato;
+	font-weight: 300;
+	color: #dd0000;
+}
+
+article {
+
+	color: #cccccc;
 }
 
 .blogtitle {
+	
 	color: #dd0000;
+	font-weight: 700px;
 
 }
 
-.blogtitle:hover {
+.blogtitle:hover , a:hover {
      color: #aa0000;
 }
+
+li:hover {
+
+     color: #aa0000;
+}
+
+a:visited {
+	color: #cccccc;
+	}
 
 .dates {
 	color: #cccccc;
@@ -57,4 +82,6 @@ footer {
 
 	float: right;
 	color: #dd0000;
+	font-weight: bold;
+
 }
