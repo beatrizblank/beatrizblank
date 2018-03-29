@@ -1,5 +1,33 @@
 body {
+
 	font-family: Lato;
+	font-size: 10px;
+	width: 720px; 
+    padding: 54px solid;
+    border-left: solid 6px #dddddd;
+    padding-left: 30px;
+
+}
+
+header {
+	color: #444444;
+    font-family: lato;
+    line-height: 1.5;
+}
+h2 {
+	color:black;
+}
+
+li {
+
+  list-style-type: none;
+  display: inline-block;
+
+}
+
+footer {
+	font-size: 5px;
+	font-family: Lato 700 italic;
 }
 
 .blogtitle {
@@ -7,7 +35,26 @@ body {
 
 }
 
-ul {
-  list-style-type: none;
-  display: inline-block;
+.blogtitle:hover {
+     color: #aa0000;
+}
+
+.dates {
+	color: #cccccc;
+}
+
+.title {
+
+	color: black;
+}
+
+.copyright {
+
+	color: #bbbbbb;
+}
+
+.continues {
+
+	float: right;
+	color: #dd0000;
 }
