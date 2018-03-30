@@ -19,6 +19,7 @@ header {
 ul {
 	padding: 0;
 }
+
 h2 {
 	color:black;
 	font-family: ;
@@ -31,6 +32,10 @@ li {
 
 }
 
+hr {
+
+ border-width: 0.5px;
+}
 
 footer {
 	font-size: 10px;
@@ -42,6 +47,7 @@ footer {
 article {
 
 	color: #cccccc;
+	max-width: 700px;
 }
 
 .blogtitle {
