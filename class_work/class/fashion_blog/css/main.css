@@ -11,7 +11,6 @@ body {
 
 header {
 	color: #444444;
-    font-family: lato;
     line-height: 1.5;
 
 }
@@ -36,13 +35,12 @@ hr {
 
  border-width: 0.5px;
  max-width: 700px;
- 
+
 }
 
-footer {
+footer a {
 	font-size: 10px;
 	font-family: Lato;
-	font-weight: 300;
 	color: #dd0000;
 }
 
@@ -55,7 +53,7 @@ article {
 .blogtitle {
 	
 	color: #dd0000;
-	font-weight: 700px;
+	font-style: italic;
 
 }
 
@@ -71,6 +69,11 @@ li:hover {
 a:visited {
 	color: #cccccc;
 	}
+
+a:hover {
+	  color: #aa0000;
+
+}
 
 .dates {
 	color: #cccccc;
