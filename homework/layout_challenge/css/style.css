@@ -55,5 +55,58 @@ body, html {
 }
 
 #three-column .container {
+
+  background: lightgray;
+  border: 1px solid gray;
   height: 200px;
+  margin-top: 120px;
+  margin-right: 110px;
+  margin-left: 110px;
+  margin-bottom: 20px;
+}
+
+#three-column .footer {
+
+  background: lightgray;
+  border: 1px solid gray;
+  height: 200px;
+  margin-top: 20px;
+  margin-right: 110px;
+  margin-left: 110px;
+  margin-bottom: 120px;
+}
+
+#three-column .middle {
+
+	display: flex;
+	justify-content: space-between;
+	background: white;
+	margin-right: 110px;
+	margin-left: 110px;
+}
+
+#three-column .box-one {
+
+  background: lightgray;
+  border: 1px solid gray;
+  height: 500px;
+  width: 200px;
+
+}
+#three-column .box-two {
+
+  background: lightgray;
+  border: 1px solid gray;
+  height: 500px;
+  width: 750px;
+
+}
+
+#three-column .box-three {
+
+  background: lightgray;
+  border: 1px solid gray;
+  height: 500px;
+  width: 200px;
+
 }
