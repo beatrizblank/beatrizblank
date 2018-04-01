@@ -1,7 +1,5 @@
 body {
 
-	font-family: Lato;
-	font-size: 10px;
 	width: 720px; 
     padding: 54px solid;
     border-left: solid 6px #dddddd;
@@ -21,7 +19,12 @@ ul {
 
 h2 {
 	color:black;
-	font-family: ;
+	font-family: lato;
+	font-weight: 300;
+}
+
+ul a {
+	font-weight: 150;
 }
 
 li {
@@ -41,7 +44,7 @@ hr {
 footer a {
 	font-size: 10px;
 	font-family: Lato;
-	color: #dd0000;
+    color: #dd0000;
 }
 
 article {
@@ -52,8 +55,9 @@ article {
 
 .blogtitle {
 	
+	font-family:lato;
+	font-weight: 300;
 	color: #dd0000;
-	font-style: italic;
 
 }
 
