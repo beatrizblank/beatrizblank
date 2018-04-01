@@ -25,16 +25,16 @@ body, html {
 
   background: lightgray;
   border: 1px solid gray;
-  height: 600px;
-  width: 850px;
+  height: 500px;
+  width: 790px;
 
 }
 .box-two {
 
   background: lightgray;
   border: 1px solid gray;
-  height: 600px;
-  width: 340px;
+  height: 500px;
+  width: 400px;
 
 }
 
@@ -53,17 +53,6 @@ body, html {
   margin-bottom: 20px;
 }
 
-
-#two-column .box-two {
-
-	height: 600px;
-}
-
-#two-column .box-one {
-
-	height: 600px;
-	
-}
 
 #two-column .footer {
   height: 200px;
