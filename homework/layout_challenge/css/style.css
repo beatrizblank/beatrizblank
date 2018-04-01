@@ -5,8 +5,8 @@ body, html {
 
 .middle {
 	background: pink;
-	margin-right: 100px;
-	margin-left: 100px;
+	margin-right: 110px;
+	margin-left: 110px;
 }
 
 #two-column .middle {
@@ -25,16 +25,16 @@ body, html {
 
   background: lightgray;
   border: 1px solid gray;
-  height: 600px;
-  width: 800px;
+  height: 500px;
+  width: 850px;
 
 }
 .box-two {
 
   background: lightgray;
   border: 1px solid gray;
-  height: 600px;
-  width: 400px;
+  height: 500px;
+  width: 340px;
 
 }
 
@@ -47,9 +47,9 @@ body, html {
 
 #two-column .container {
   height: 200px;
-  margin-top: 110px;
-  margin-right: 100px;
-  margin-left: 100px;
+  margin-top: 120px;
+  margin-right: 110px;
+  margin-left: 110px;
   margin-bottom: 20px;
 }
 
@@ -68,9 +68,9 @@ body, html {
 #two-column .footer {
   height: 200px;
   margin-top: 20px;
-  margin-right: 100px;
-  margin-left: 100px;
-  margin-bottom: 110px;
+  margin-right: 110px;
+  margin-left: 110px;
+  margin-bottom: 120px;
 }
 
 #three-column .container {
