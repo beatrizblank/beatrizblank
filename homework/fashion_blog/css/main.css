@@ -8,6 +8,7 @@ body {
 }
 
 header {
+
 	color: #444444;
     line-height: 1.5;
 
@@ -17,13 +18,22 @@ ul {
 	padding: 0;
 }
 
+a {  
+
+font-family: lato;
+font-weight: 150;
+
+}	
+
+
 h2 {
 	color:black;
 	font-family: lato;
-	font-weight: 300;
+    font-weight: 200;
 }
 
 ul a {
+
 	font-weight: 150;
 }
 
@@ -49,6 +59,7 @@ footer a {
 
 article {
 
+	font-family: lato;
 	color: #cccccc;
 	max-width: 700px;
 }
@@ -79,24 +90,34 @@ a:hover {
 
 }
 
+.footer{
+	font-family: lato;
+
+}
+
 .dates {
+	font-family: lato;
+	font-weight: 300;
 	color: #cccccc;
 }
 
 .title {
 
-	color: black;
+	font-family: lato;
+    color: black;
 }
 
 .copyright {
 
 	color: #bbbbbb;
+	font-family: lato;
 }
 
 .continues {
 
-	float: right;
+	font-family: lato;
+    float: right;
 	color: #dd0000;
-	font-weight: bold;
-
+	font-weight: bolder;
+	
 }
