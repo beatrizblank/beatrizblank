@@ -3,7 +3,6 @@ body, html {
   margin: 0;
 }
 
-
 #two-column .container {
 
   background: lightgray;
@@ -93,6 +92,7 @@ body, html {
   width: 200px;
 
 }
+
 #three-column .box-two {
 
   background: lightgray;
@@ -108,5 +108,86 @@ body, html {
   border: 1px solid gray;
   height: 500px;
   width: 200px;
+
+}
+
+#simple-marketing .container {
+
+  background: lightgray;
+  border: 1px solid gray;
+  height: 200px;
+  margin-top: 120px;
+  margin-right: 110px;
+  margin-left: 110px;
+  margin-bottom: 20px;
+}
+
+#simple-marketing .footer {
+
+  background: lightgray;
+  border: 1px solid gray;
+  height: 200px;
+  margin-top: 20px;
+  margin-right: 110px;
+  margin-left: 110px;
+  margin-bottom: 120px;
+}
+
+#two-sections, #three-sections {
+
+	display: flex;
+	justify-content: space-between;
+	background: white;
+	margin-right: 110px;
+	margin-left: 110px;
+}
+
+#three-sections {
+
+	margin-top: 20px;
+}
+
+#two-sections .box-one {
+
+  background: lightgray;
+  border: 1px solid gray;
+  height: 400px;
+  width: 590px;
+
+}
+
+#two-sections .box-two {
+
+  background: lightgray;
+  border: 1px solid gray;
+  height: 400px;
+  width: 590px;
+
+}
+
+#three-sections .box-one {
+
+  background: lightgray;
+  border: 1px solid gray;
+  height: 200px;
+  width: 380px;
+
+}
+#three-sections .box-two {
+
+  background: lightgray;
+  border: 1px solid gray;
+  height: 200px;
+  width: 380px;
+
+}
+
+
+#three-sections .box-three {
+
+  background: lightgray;
+  border: 1px solid gray;
+  height: 200px;
+  width: 380px;
 
 }
