@@ -3,25 +3,29 @@ body, html {
   margin: 0;
 }
 
-.middle {
-	background: white;
-	margin-right: 110px;
-	margin-left: 110px;
+
+#two-column .container {
+
+  background: lightgray;
+  border: 1px solid gray;
+  height: 200px;
+  margin-top: 120px;
+  margin-right: 110px;
+  margin-left: 110px;
+  margin-bottom: 20px;
+
 }
 
 #two-column .middle {
 
 	display: flex;
 	justify-content: space-between;
+	background: white;
+	margin-right: 110px;
+	margin-left: 110px;
 }
 
-.container {
-
-  background: lightgray;
-  border: 1px solid gray;
-}
-
-.box-one {
+#two-column .box-one {
 
   background: lightgray;
   border: 1px solid gray;
@@ -29,7 +33,7 @@ body, html {
   width: 790px;
 
 }
-.box-two {
+#two-column .box-two {
 
   background: lightgray;
   border: 1px solid gray;
@@ -38,23 +42,11 @@ body, html {
 
 }
 
-.footer {
+
+#two-column .footer {
 
   background: lightgray;
   border: 1px solid gray;
-
-}
-
-#two-column .container {
-  height: 200px;
-  margin-top: 120px;
-  margin-right: 110px;
-  margin-left: 110px;
-  margin-bottom: 20px;
-}
-
-
-#two-column .footer {
   height: 200px;
   margin-top: 20px;
   margin-right: 110px;
