@@ -3,13 +3,74 @@ body, html {
   margin: 0;
 }
 
+.middle {
+	background: pink;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+#two-column .middle {
+
+	display: flex;
+	justify-content: space-between;
+}
+
 .container {
+
   background: lightgray;
   border: 1px solid gray;
 }
 
+.box-one {
+
+  background: lightgray;
+  border: 1px solid gray;
+  height: 600px;
+  width: 800px;
+
+}
+.box-two {
+
+  background: lightgray;
+  border: 1px solid gray;
+  height: 600px;
+  width: 400px;
+
+}
+
+.footer {
+
+  background: lightgray;
+  border: 1px solid gray;
+
+}
+
 #two-column .container {
   height: 200px;
+  margin-top: 110px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+
+#two-column .box-two {
+
+	height: 600px;
+}
+
+#two-column .box-one {
+
+	height: 600px;
+	
+}
+
+#two-column .footer {
+  height: 200px;
+  margin-top: 20px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 110px;
 }
 
 #three-column .container {
