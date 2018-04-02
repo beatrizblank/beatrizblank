@@ -4,7 +4,7 @@ body {
 	width: 720px; 
     padding: 54px solid;
     border-left: solid 6px #dddddd;
-    padding-left: 30px;
+    padding-left: 50px;
 
 }
 
@@ -73,7 +73,7 @@ article {
 	font-weight: 300;
 	font-size: 18px;
 	color: grey;
-	max-width: 710px;
+	max-width: 720px;
 	line-height: 1.5;
 }
 
