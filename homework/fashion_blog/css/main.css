@@ -11,14 +11,33 @@ header {
 
 	color: #444444;
 	font-family: lato; 
+	line-height: 1.5;
+}
+
+ul, h2 { 
+
+	 line-height: 1.5;
+	 margin-top: 0px;
+	
+}
+
+h2 {
+ margin-bottom: 0px;
+}
+
+ul {
+
+	margin-bottom: 40px;
 }
 
 .blogtitle {
-	
+  	
+    line-height: 1.5;
+    margin-bottom: 0px;
 	font-family:lato;
 	font-weight: 300;
+	font-size: 50px;
 	color: #dd0000;
-	line-height: 1.5;
 
 }
 
@@ -42,7 +61,7 @@ h2 {
 	color: black;
 	font-family: lato;
     font-weight: 200;
-    line-height: 1.5;
+   
 }
 
 
@@ -50,7 +69,6 @@ li {
 
   list-style-type: none;
   display: inline-block;
-  line-height: 1.5;
 
 }
 
@@ -69,8 +87,11 @@ footer a {
 article {
 
 	font-family: lato;
-	color: #cccccc;
+	font-weight: 300;
+	font-size: 18px;
+	color: grey;
 	max-width: 700px;
+	line-height: 1.5;
 }
 
 .blogtitle:hover , a:hover {
@@ -106,13 +127,17 @@ a:hover {
 .dates {
 	font-family: lato;
 	font-weight: 300;
+	font-size: 35px;
 	color: #cccccc;
+	margin-bottom: 0px;
 }
 
 .title {
 
 	font-family: lato;
+	font-size: 35px;
     color: black;
+    margin-bottom: 10px;
 }
 
 .copyright {
