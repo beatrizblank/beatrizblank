@@ -1,5 +1,6 @@
 body {
 
+	font-family:lato;
 	width: 720px; 
     padding: 54px solid;
     border-left: solid 6px #dddddd;
@@ -7,23 +8,6 @@ body {
 
 }
 
-header {
-
-	color: #444444;
-	font-family: lato; 
-	line-height: 1.5;
-}
-
-ul, h2 { 
-
-	 line-height: 1.5;
-	 margin-top: 0px;
-	
-}
-
-h2 {
- margin-bottom: 0px;
-}
 
 ul {
 
@@ -32,9 +16,7 @@ ul {
 
 .blogtitle {
   	
-    line-height: 1.5;
     margin-bottom: 0px;
-	font-family:lato;
 	font-weight: 300;
 	font-size: 50px;
 	color: #dd0000;
@@ -44,26 +26,26 @@ ul {
 ul {
 
 	padding: 0;
+	font-size: 22px;
 	display: flex;
 	justify-content: space-between;
-	font-family: lato;
+	width: 620px;
+	color: #444444;
+	
 }
+
 
 a {  
 
-font-family: lato;
-font-weight: 150;
+font-weight: 200;
 
 }	
 
+header h2 {
 
-h2 {
-	color: black;
-	font-family: lato;
-    font-weight: 200;
-   
+	font-weight: 200;
+
 }
-
 
 li {
 
@@ -80,52 +62,47 @@ hr {
 }
 
 footer a {
-    font-family: Lato;
+
     color: #dd0000;
+    font-size: 18px;
 }
 
 article {
 
-	font-family: lato;
+	
 	font-weight: 300;
 	font-size: 18px;
 	color: grey;
-	max-width: 700px;
+	max-width: 710px;
 	line-height: 1.5;
 }
 
-.blogtitle:hover , a:hover {
-     color: #aa0000;
-}
-
-li:hover {
-
-     color: #aa0000;
-}
 
 a:visited {
+
 	color: #cccccc;
+
 	}
 
-a:hover {
-	  color: #aa0000;
+li:hover, a:hover, .blogtitle:hover {
 
+     color: #aa0000;
 }
+
 
 .footer {
 
-	font-family: lato;
 	color: #cccccc;
 
 }
 
 .lines {
 	color: #bbbbbb;
-	font-family: lato;
+
 }
 
 .dates {
-	font-family: lato;
+	
 	font-weight: 300;
 	font-size: 35px;
 	color: #cccccc;
@@ -134,10 +111,11 @@ a:hover {
 
 .title {
 
-	font-family: lato;
 	font-size: 35px;
     color: black;
     margin-bottom: 10px;
+    font-weight: 200;
+	 margin-top: 0px;
 }
 
 .copyright {
@@ -145,13 +123,13 @@ a:hover {
 	color: #bbbbbb;
 	font-family: lato;
 	font-weight: 300;
+	font-size: 18px;
 }
 
 .continues {
 
-	font-family: lato;
     float: right;
 	color: #dd0000;
-	font-weight: bolder;
+	font-weight: bold;
 	
 }
