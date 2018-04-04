@@ -3,7 +3,9 @@ body, html {
   margin: 0;
 }
 
-#two-column .container {
+#two-column .container, 
+#three-column .container,
+#simple-marketing .container {
 
   background: lightgray;
   border: 1px solid gray;
@@ -42,7 +44,9 @@ body, html {
 }
 
 
-#two-column .footer {
+#two-column .footer,
+#three-column .footer,
+#simple-marketing .footer {
 
   background: lightgray;
   border: 1px solid gray;
@@ -51,28 +55,7 @@ body, html {
   margin-right: 110px;
   margin-left: 110px;
   margin-bottom: 120px;
-}
 
-#three-column .container {
-
-  background: lightgray;
-  border: 1px solid gray;
-  height: 200px;
-  margin-top: 120px;
-  margin-right: 110px;
-  margin-left: 110px;
-  margin-bottom: 20px;
-}
-
-#three-column .footer {
-
-  background: lightgray;
-  border: 1px solid gray;
-  height: 200px;
-  margin-top: 20px;
-  margin-right: 110px;
-  margin-left: 110px;
-  margin-bottom: 120px;
 }
 
 #three-column .middle {
@@ -111,27 +94,6 @@ body, html {
 
 }
 
-#simple-marketing .container {
-
-  background: lightgray;
-  border: 1px solid gray;
-  height: 200px;
-  margin-top: 120px;
-  margin-right: 110px;
-  margin-left: 110px;
-  margin-bottom: 20px;
-}
-
-#simple-marketing .footer {
-
-  background: lightgray;
-  border: 1px solid gray;
-  height: 200px;
-  margin-top: 20px;
-  margin-right: 110px;
-  margin-left: 110px;
-  margin-bottom: 120px;
-}
 
 #two-sections, #three-sections {
 
