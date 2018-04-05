@@ -31,7 +31,7 @@ body, html {
   background: lightgray;
   border: 1px solid gray;
   height: 500px;
-  width: 790px;
+  flex-grow: 0.68;
 
 }
 #two-column .box-two {
@@ -39,10 +39,8 @@ body, html {
   background: lightgray;
   border: 1px solid gray;
   height: 500px;
-  width: 400px;
-
+  flex-grow: 0.30;
 }
-
 
 #two-column .footer,
 #three-column .footer,
@@ -114,8 +112,7 @@ body, html {
   background: lightgray;
   border: 1px solid gray;
   height: 400px;
-  width: 590px;
-
+  flex-grow: 0.488;
 }
 
 #two-sections .box-two {
@@ -123,7 +120,7 @@ body, html {
   background: lightgray;
   border: 1px solid gray;
   height: 400px;
-  width: 590px;
+  flex-grow: 0.488;
 
 }
 
