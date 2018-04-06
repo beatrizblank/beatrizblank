@@ -2,3 +2,35 @@
 font-family: 'Oswald', sans-serif;
 font-family: 'Merriweather', serif;
 font-family: 'Source Sans Pro', sans-serif; */
+body {
+
+	width: 720px; 
+
+	}
+
+
+header {
+
+   display: flex;
+   justify-content: space-between;
+
+
+}
+
+.title {
+
+	justify-content: flex-end;
+	width: 220px;
+}
+
+ul {
+
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 500px; 
+}
+
+
+
+ 
