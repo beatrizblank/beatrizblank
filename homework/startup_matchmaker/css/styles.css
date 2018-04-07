@@ -5,29 +5,33 @@ font-family: 'Source Sans Pro', sans-serif; */
 body {
 
 	width: 720px; 
+  color: white;
+  font-family: Source Sans Pro;
 
 	}
 
 
 header {
 
+   background: black;
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
+  
 
 }
 
-.title {
+header .left {
 
-	justify-content: flex-end;
-	width: 220px;
+	display:flex;
+  flex-basis: auto;
+
 }
 
-ul {
+header .right {
 
-  list-style-type: none;
   display: flex;
   justify-content: space-between;
-  width: 500px; 
+  width: 450px; 
 
 }
 
