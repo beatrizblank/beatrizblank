@@ -7,7 +7,7 @@ body {
 	width: 760px; 
   color: white;
   font-family: Source Sans Pro;
-
+  
 	}
 
 
@@ -45,13 +45,14 @@ header .right {
 .tagline {
 
   background-color: #C6C6C6;
-  height: 60px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: "Merriweather", italic;
   font-size: 18px;
   color: black;
+  border-top: 3px solid yellow;
 }
 
 .taste {
@@ -66,13 +67,6 @@ header .right {
   text-decoration-color: yellow;
   margin-right: 3px;
   margin-left: 3px;
-}
-
-hr {
-   border-width: 0.5px;
-   max-width: 700px;
-   height: 20px;
-   color: yellow;
 }
 
 
