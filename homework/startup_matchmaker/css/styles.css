@@ -4,7 +4,7 @@ font-family: 'Merriweather', serif;
 font-family: 'Source Sans Pro', sans-serif; */
 body {
 
-	width: 720px; 
+	width: 760px; 
   color: white;
   font-family: Source Sans Pro;
 
@@ -15,23 +15,30 @@ header {
 
    background: black;
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
+   height: 60px;
+   align-items: center;
   
 
 }
 
 header .left {
 
-	display:flex;
-  flex-basis: auto;
+	font-family: Merriweather, serif;
+  color: yellow;
+  display:flex;
+  font-size: 25px;
+  margin-left: 20px;
 
 }
 
 header .right {
 
   display: flex;
+  color: white;
   justify-content: space-between;
-  width: 450px; 
+  width: 400px; 
+  margin-right: 20px;
 
 }
 
