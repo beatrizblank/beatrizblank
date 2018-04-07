@@ -42,6 +42,31 @@ header .right {
 
 }
 
+.tagline {
+
+  background-color: #C6C6C6;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Merriweather";
+  color: black;
+}
+
+.taste {
+  color: gray;
+  text-decoration: line-through;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.are {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
 
 
  
