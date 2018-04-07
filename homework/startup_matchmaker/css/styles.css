@@ -70,8 +70,8 @@ header .right {
 }
 
 article {
-  height: 250px;
-  width: 300px;
+  height: 220px;
+  width: 280px;
   border: black solid 2px;
   padding: 30px;
   background: white;
@@ -83,4 +83,10 @@ article {
   font-family: Oswald;
 }
 
+footer {
+  background-color: black;
+  height: 50px;
+  display: flex;
+  align-content: center;
+}
  
