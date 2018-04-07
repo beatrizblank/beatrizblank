@@ -4,7 +4,7 @@ font-family: 'Merriweather', serif;
 font-family: 'Source Sans Pro', sans-serif; */
 body {
 
-	width: 760px; 
+	width: 800px; 
   color: white;
   font-family: Source Sans Pro;
   
@@ -49,7 +49,7 @@ header .right {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Merriweather", italic;
+  font-family: Merriweather, italic;
   font-size: 18px;
   color: black;
   border-top: 3px solid yellow;
@@ -69,6 +69,18 @@ header .right {
   margin-left: 3px;
 }
 
+article {
+  height: 250px;
+  width: 300px;
+  border: black solid 2px;
+  padding: 30px;
+  background: white;
+  color: black;
+  font-family: Merriweather;
+}
 
+.article h1 {
+  font-family: Oswald;
+}
 
  
