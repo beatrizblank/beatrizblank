@@ -7,7 +7,7 @@ body {
 	width: 800px; 
   color: white;
   font-family: Source Sans Pro;
-  
+
 	}
 
 
@@ -40,6 +40,10 @@ header .right {
   width: 400px; 
   margin-right: 20px;
 
+}
+
+main {
+  background-image: url("coworking.jpg");
 }
 
 .tagline {
@@ -77,6 +81,12 @@ article {
   background: white;
   color: black;
   font-family: Merriweather;
+}
+
+
+section .square {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .article h1 {
