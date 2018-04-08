@@ -6,7 +6,6 @@ body {
 
 	width: 800px; 
   color: white;
-  font-family: Source Sans Pro;
   background: url('img/coworking.jpg');
 
 	}
@@ -73,7 +72,7 @@ header .right {
 .square {
   display: flex;
   justify-content: flex-end;
-  background: url('img/coworking.jpg')
+ 
 }
 
 .match {
@@ -90,15 +89,41 @@ header .right {
 .createfind {
   background: #C6C6C6;
   display: flex;
+  justify-content: space-between;
+
 }
 
 .designer, .developer, .profile {
   color: black;
+  font-family: Merriweather;
+  width: 200px;
+
 
 }
 
-.article h1 {
-  font-family: Oswald;
+.designer {
+  margin-right: 20px;
+}
+
+.profile {
+  margin-left: 20px;
+}
+
+.designer h1, .developer h1, .profile h1 {
+  font-size: 20px;
+}
+
+.designer p, .developer p, .profile p {
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.match p {
+
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  font-size: 15px;
 }
 
 footer {
