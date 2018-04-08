@@ -7,6 +7,7 @@ body {
 	width: 800px; 
   color: white;
   font-family: Source Sans Pro;
+  background: url('img/coworking.jpg');
 
 	}
 
@@ -42,10 +43,6 @@ header .right {
 
 }
 
-main {
-  background-image: url("coworking.jpg");
-}
-
 .tagline {
 
   background-color: #C6C6C6;
@@ -73,20 +70,26 @@ main {
   margin-left: 3px;
 }
 
-article {
+.square {
+  display: flex;
+  justify-content: flex-end;
+  background: url('img/coworking.jpg')
+}
+
+.match {
+
   height: 220px;
   width: 280px;
   border: black solid 2px;
   padding: 30px;
-  background: white;
   color: black;
   font-family: Merriweather;
+
 }
 
-
-section .square {
+.createfind {
+  background: grey;
   display: flex;
-  justify-content: flex-end;
 }
 
 .article h1 {
