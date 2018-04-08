@@ -88,8 +88,13 @@ header .right {
 }
 
 .createfind {
-  background: grey;
+  background: #C6C6C6;
   display: flex;
+}
+
+.designer, .developer, .profile {
+  color: black;
+
 }
 
 .article h1 {
@@ -100,6 +105,5 @@ footer {
   background-color: black;
   height: 50px;
   display: flex;
-  align-content: center;
 }
  
