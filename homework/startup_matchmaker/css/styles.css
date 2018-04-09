@@ -126,6 +126,14 @@ header .right {
   font-size: 15px;
 }
 
+.button {
+  background-color: grey;
+  text-align: center;
+  align-self: center;
+  height: 40px;
+  width: ;
+}
+
 footer {
   background-color: black;
   height: 50px;
