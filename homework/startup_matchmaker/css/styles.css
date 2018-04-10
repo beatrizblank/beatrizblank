@@ -42,6 +42,13 @@ header .right {
 
 }
 
+main {
+
+  background: url(../img/coworking.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+
 .tagline {
 
   background-color: #C6C6C6;
@@ -69,7 +76,7 @@ header .right {
   margin-left: 3px;
 }
 
-.square {
+.banner {
   display: flex;
   justify-content: flex-end;
  
@@ -132,6 +139,10 @@ header .right {
   align-self: center;
   height: 40px;
   width: ;
+}
+
+.yellow  {
+  background-color: yellow;
 }
 
 footer {
