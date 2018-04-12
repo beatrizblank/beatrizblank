@@ -1,5 +1,3 @@
-function hello () {
-	alert("hello")
-}
+var title = document.querySelector("#title");
 
-hello ()
+console.log(title)
