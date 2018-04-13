@@ -1,3 +1,26 @@
+var button = document.querySelector("#color-button");
+
+button.onclick = changeColor;
+
+function changeColor() {
+    var red = document.querySelector("#red").value;
+    var blue = document.querySelector("#blue").value;
+    var green = document.querySelector("#green").value;
+
+    var colorStr = "rgb(" + red + "," + green + "," + blue + ")"
+
+    document.querySelector("#colorful-text").innerHTML = colorStr;
+    document.querySelector("body").style.background = colorStr;
+
+}
+
+
+
+
+
+
+
+  
 // 1. Use document.querySelector() and assign the .onclick event to #color-button
 
 // 2. Write a function, named changeColor, that is called when #color-button is clicked
