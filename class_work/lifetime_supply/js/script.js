@@ -18,7 +18,7 @@ function calculateDrinks() {
 	var currentAge = document.querySelector('#current-age').value;
 	var maxAge = document.querySelector("#max-age").value;
 	var favDrink = document.querySelector("#fav-drink").value;
-	var numPerDay= document.querySelector("#num-per-day").value;
+	var numPerDay = document.querySelector("#num-per-day").value;
 
   // 2. Calculate drinksLeft
   var drinksLeft = (maxAge - currentAge) * 365 * numPerDay;
