@@ -115,8 +115,6 @@ function changeBackgroundBlue()
 
 	var blueBackground = blue;
 
-
-
 document.querySelector("#out").style.background=blueBackground;
 
 }
@@ -128,7 +126,9 @@ function backToNormal() {
 
 	var out=document.querySelector("#out").innerHTML.style;
 
-    document.querySelector("#out").innerHTML= out;
+	var normal = out
+
+   document.querySelector("#out").innerHTML = normal 
     
 }
 
