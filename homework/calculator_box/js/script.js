@@ -126,9 +126,9 @@ function backToNormal() {
 
 	var out=document.querySelector("#out").innerHTML.style;
 
-	var normal = out
+	var normal =  out
 
-   document.querySelector("#out").innerHTML = normal 
+	document.querySelector("#out") = normal;
     
 }
 
