@@ -27,7 +27,7 @@ a10.onclick=changePlusTen
 
 function changePlusTwenty() {
 
-	var out=document.querySelector("#out").innerHTML; out=0; 
+	var out=document.querySelector("#out").innerHTML; out=0;
     var plusTwenty=document.querySelector("#a20").innerHTML; plusTWenty=20;
 
 var ceroPLusTwenty = out + plusTWenty;
