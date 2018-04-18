@@ -10,101 +10,103 @@ function addTen() {
 
 	total = total + 10;
 
-	$("#out").html() = total;
+	$("#out").html(total)
 
 	console.log(addTen)
 }
 
 // +20
 
-var plusTwenty = document.querySelector("#a20");
+var plusTwenty = $("#a20");
 
-plusTwenty.onclick = addTwenty;
+plusTwenty.click(addTwenty)
 
 function addTwenty() {
+
 	total = total + 20;
 
-	document.querySelector("#out").innerHTML = total;
+	$("#out").html(total)
 }
 
 // +30
 
-var plusThirtyButton = document.querySelector("#a30");
+var plusThirtyButton = $("#a30");
 
-plusThirtyButton.onclick = addThirty;
+plusThirtyButton.click(addThirty)
 
 function addThirty() {
 	total = total + 30;
 
-	document.querySelector("#out").innerHTML = total;
+	$("#out").html(total)
 }
 
 // -10
 
-var minusTenButton = document.querySelector("#n10");
+var minusTenButton = $("#n10");
 
-minusTenButton.onclick = subtractTen;
+minusTenButton.click(subtractTen)
 
 function subtractTen() {
 	total = total - 10;
 
-	document.querySelector("#out").innerHTML = total;
+	$("#out").html(total)
 }
 
 
 // -20
 
-var minusTwentyButton = document.querySelector("#n20");
+var minusTwentyButton = $("#n20");
 
-minusTwentyButton.onclick = subtractTwenty;
+minusTwentyButton.click(subtractTwenty)
 
 function subtractTwenty() {
 	total = total - 20;
 
-	document.querySelector("#out").innerHTML = total;
+	$("#out").innerHTML = total;
 }
 
 // -30
 
-var minusThirtyButton = document.querySelector("#n30");
+var minusThirtyButton = $("#n30");
 
-minusThirtyButton.onclick = subtractThirty;
+minusThirtyButton.click(subtractThirty)
 
 function subtractThirty() {
 	total = total - 30;
 
-	document.querySelector("#out").innerHTML = total;
+	$("#out").innerHTML = total;
 }
 
 // red
 
-var redButton = document.querySelector("#red");
+var redButton = $("#red");
 
-redButton.onclick = turnRed;
+redButton.click(turnRed)
 
 function turnRed() {
-	document.querySelector("#out").style.background = "red";
+	$("#out").css("background-color", "red");
 }
 
 // blue
 
-var blueButton = document.querySelector("#blue");
+var blueButton = $("#blue");
 
-blueButton.onclick = turnBlue;
+blueButton.click(turnBlue)
 
 function turnBlue() {
-	document.querySelector("#out").style.background = "blue";
+
+	$("#out").css("background-color", "blue");
 }
 
 // reset
 
-var outputButton = document.querySelector("#out");
+var outputButton = $("#out");
 
-outputButton.onclick = reset;
+outputButton.click(reset)
 
 function reset() {
 	total = 0;
 
-	document.querySelector("#out").innerHTML = total;
-	document.querySelector("#out").style.background = "white";
+	$("#out").html(total)
+	$("#out").css("background-color", "white")
 }
