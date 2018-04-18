@@ -2,14 +2,17 @@ var total = 0;
 
 // +10
 
-var plusTen = document.querySelector("#a10");
+var plusTen = $("#a10");
 
-plusTen.onclick = addTen;
+plusTen.click(addTen)
 
 function addTen() {
+
 	total = total + 10;
 
-	document.querySelector("#out").innerHTML = total;
+	$("#out").html() = total;
+
+	console.log(addTen)
 }
 
 // +20
