@@ -12,7 +12,7 @@ function addTen() {
 
 	$("#out").html(total)
 
-	console.log(addTen)
+
 }
 
 // +20
