@@ -16,11 +16,9 @@ function displayFirst() {
 
 function displaySecond() {
 
-	$("#bigimage").slideDown("slow");
-
-	$("#bigimage").attr("src", "img/2.jpg");
-
-
+	$("#bigimage").fadeOut(function() {
+		$("#bigimage").attr("src", "img/2.jpg").fadeIn();
+	});
 
 }
 
