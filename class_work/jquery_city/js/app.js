@@ -14,13 +14,15 @@ function displayFirst() {
 
 }
 
-function displaySecond() {
+function displaySecond(event) {
 
-	$("#bigimage").fadeOut(function() {
-		$("#bigimage").attr("src", "img/2.jpg").fadeIn();
-	});
+console.log(event.currentTarget);
 
+    var newSrc = $(eventTarget)
+	$("#bigimage").attr("src", "img/2.jpg")
 }
+
+
 
 function displayThird() {
 
