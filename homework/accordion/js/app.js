@@ -3,22 +3,13 @@
 // I expect to see the text appear underneath
 
 
-$(".row").click(showText)
+$(".row").click(toggleText)
 
 
-function showText(event) {
+function toggleText() {
 
-
-   $(event.currentTarget).html(".row:nth-child(1)");
-
-
-    console.log(showText)
-	
+  $(".wrapper").toggle();
 }
-
-
-
-
 
 // As a user
 // When I click on an opened row
