@@ -6,12 +6,11 @@
 // When I click on an opened row
 // I expect to see the text disappear
 
-$(".row").click(toggleText)
-
+$(".row").click(toggleText);
 
 function toggleText() {
-
-  $(".wrapper").toggle();
+ 
+ $(".wrapper").toggle();
 }
 
 
