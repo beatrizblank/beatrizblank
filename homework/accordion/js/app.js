@@ -7,9 +7,11 @@
 // I expect to see the text disappear
 
 
-$(".row").click(function(event) {
+$(".row").click(slide);
+
+	function slide(event) {
   $(event.currentTarget).find(".wrapper").toggle();
-});
+}
 
 
 
