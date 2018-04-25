@@ -6,15 +6,6 @@
 // When I click on an opened row
 // I expect to see the text disappear
 
-
-$(".row").click(slide);
-
-	function slide(event) {
-  $(event.currentTarget).find(".wrapper").toggle();
-}
-
-
-
 // It should animate like this: https://imgur.com/ivlcesG
 
 // Hint: remember traversal (parent, child) and event arguments
@@ -26,18 +17,18 @@ $(".row").click(slide);
 // When I click on an opened row
 // I expect the text to disappear more slowly than how it appeared
 
-$(".row").click(slide);
+$(".row").click(function(event) {
+  $(event.currentTarget).find(".wrapper").slideToggle();
+});
 
-	function slide(event) {
+// extra credit:
 
-  var wrapper = $(event.currentTarget).find(".wrapper")
+// $(".row").click(function(event) {
+//   var wrapper = $(event.currentTarget).find(".wrapper");
 
-  if(wrapper.is(":invisible")) {
-  	wrapper.slideUp("slow")
-
-  	else{
-  		wrapper.slideDown();
-  	}
-
-
-}
+//   if(wrapper.is(":visible")) {
+//     wrapper.slideUp("slow");
+//   } else {
+//     wrapper.slideDown("fast");
+//   }
+// });
