@@ -1,0 +1,40 @@
+body {
+	background-color: black;
+    font-family: "Helvetica";
+    color: white;
+	 }
+h1 {
+	text-align: center;
+
+}
+
+div {
+	display: flex;
+	justify-content: space-around;
+}
+
+#salary {
+	width: 400px;
+}
+
+#category {
+	width: 400px;
+}
+
+p {
+	text-align: center;
+}
+
+#result {
+
+	height: 100px;
+	text-align: center;
+	background-color: white;
+	color: black;
+	align-content: center;
+}
+
+#about {
+	text-align: center;
+	margin-bottom: 50PX;
+}

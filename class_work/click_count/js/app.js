@@ -22,7 +22,6 @@ $("#clickme").click(clickCount);
 
 
 function clickCount() {
-
    
  clicks += 1; 
 
