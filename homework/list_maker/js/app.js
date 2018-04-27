@@ -6,6 +6,16 @@
 // Once I have added an item to the list
 // I expect the input to be empty
 
+$("#clickme").click(function () {
+
+  var text = $("#item").val();
+  $("#item").val("");
+  var output = "<li>" + text + "</li>";
+  
+  $("#wrapper").append(output);
+
+});
+
 // Bonus:
 
 // As a user
@@ -17,6 +27,8 @@
 // As a user
 // When I try to add a blank item
 // I expect to see an alert telling me to add an item
+
+
 
 // Legendary Bonus:
 
