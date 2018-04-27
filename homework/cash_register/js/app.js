@@ -2,15 +2,17 @@
 // When I enter a number into the input and submit
 // I expect the new entry to appear in the table
 
-$("#total").change(newEntry);
+$("#total").submit(newEntry);
 
-function newEntry () {
+function newEntry (event) {
 
-	var valueEntered = $("#newEntry").val();
-
-	$("#total").html("valueEntered");
+	var valueEntered = $("#entry").val();
 
 	console.log(valueEntered)
+    
+    event.preventDefault();
+
+	$("#total").html("valueEntered");
 }
 
 // As a user
