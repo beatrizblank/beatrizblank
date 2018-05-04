@@ -6,9 +6,9 @@ $("#total").submit(newEntry);
 
 function newEntry (event) {
 
-	var valueEntered = $("#entry").val();
+	var valueEntered = $("#newEntry").val();
 
-	console.log(valueEntered)
+	console.log(valueEntered);
     
     event.preventDefault();
 
