@@ -25,11 +25,17 @@
 $.ajax({
   type: 'GET',
   url: 'http://api.citybik.es/citi-bike-nyc.json',
+
   success: function(stations) {
 
+  	stations.name;
+  	
   	// i have access to citi bike here
     console.log(stations)
   },
+
 });
+
+
 
 //i dont have access to citi bike here
