@@ -2,6 +2,7 @@
 // When I view the site
 // I see a map
 
+
 // As a User
 // When I view the site
 // I expect to only see NYC
@@ -9,6 +10,7 @@
 // As a User
 // When I view the site
 // I want to see a marker on NYC
+
 
 // Bonus:
 
