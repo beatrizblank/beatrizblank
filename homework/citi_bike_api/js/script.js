@@ -25,15 +25,20 @@
 $.ajax({
   type: 'GET',
   url: 'http://api.citybik.es/citi-bike-nyc.json',
+  success: function (stations) {
+    var stationFree = stations.filter(function(station) {
+      return station.free > 0;
+    });
 
-  success: function(stations) {
+    var topTen = stationFree.splice(0, 50);
 
-  	stations.name;
-  	
-  	// i have access to citi bike here
-    console.log(stations)
+    topTen.forEach(function(station) {
+      var stationName = station.name;
+      var numberFree = station.free;
+
+      $(".bikes").append("<li>" + stationName + ": " + numberFree + "</li>")
+    });
   },
-
 });
 
 
