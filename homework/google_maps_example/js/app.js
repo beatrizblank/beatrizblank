@@ -1,7 +1,23 @@
+
+function initMap() {
+
+  var mapa = document.getElementById("map");
+  var ny = {lat: 40.7128, lng: -74.0060};
+
+  var map = new google.maps.Map(mapa, {
+    zoom: 11,
+    center: ny
+  });
+
+  var marker = new google.maps.Marker({
+    position: ny,
+    map: map
+  });
+}
+
 // As a User
 // When I view the site
 // I see a map
-
 
 // As a User
 // When I view the site
