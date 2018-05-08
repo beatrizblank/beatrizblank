@@ -11,7 +11,8 @@ function initMap() {
 
   var marker = new google.maps.Marker({
     position: ny,
-    map: map
+    map: map,
+    title: "New York, NY"
   });
 }
 
