@@ -18,9 +18,9 @@ $.ajax({
       return station.free > 0;
     });
 
-    var topTen = stationFree.splice(0, 50);
+    var fifty = stationFree.splice(0, 50);
 
-    topTen.forEach(function(station) {
+    fifty.forEach(function(station) {
       var stationName = station.name;
       var numberFree = station.free;
 
