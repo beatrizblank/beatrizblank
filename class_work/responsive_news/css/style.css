@@ -6,7 +6,7 @@ body {
 
 .container {
   margin: 1% auto;
-  width: 960px;
+  width: 76%;
 }
 
 header {
@@ -94,5 +94,12 @@ p {
 }
 
 /* MEDIA QUERIES */
-@media () {
+@media screen and (max-width: 768px) {
+
+
+main {
+
+  flex-direction: column;
+}
+
 }
