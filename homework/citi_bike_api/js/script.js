@@ -11,23 +11,24 @@
 // I expect to see fifty stations with free bikes only
 
 $.ajax({
+
   type: 'GET',
   url: 'http://api.citybik.es/citi-bike-nyc.json',
-  success: function (stations) {
+  
+});success: function (stations) {
     var stationFree = stations.filter(function(station) {
       return station.free > 0;
     });
 
-    var fifty = stationFree.splice(0, 50);
+    var topFifty = stationFree.splice(0, 50);
 
-    fifty.forEach(function(station) {
+    topFifty.forEach(function(station) {
       var stationName = station.name;
       var numberFree = station.free;
 
       $(".bikes").append("<li>" + stationName + ": " + numberFree + "</li>")
     });
   },
-});
 
 // Bonus
 
