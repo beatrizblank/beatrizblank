@@ -94,12 +94,19 @@ p {
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
 
+  .container {
+    width: 100%;
+    padding: 4%;
+  }
 
 main {
 
   flex-direction: column;
 }
+
+.side-column {
+    margin-left: 0;
 
 }
