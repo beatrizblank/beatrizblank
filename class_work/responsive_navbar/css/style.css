@@ -31,4 +31,43 @@ header nav a {
 	background: lightgray;
 	text-align: center;
 	padding: 1rem;
+	display: none;
 }
+
+
+#nav-items {
+	display: none;
+}
+
+@media screen and (max-width: 1024px;) {
+
+#burger {
+	display: none;
+} 
+
+#mobile-nav-items {
+	display: none;
+}
+
+#nav-items {
+
+	display: initial;
+}
+
+}
+
+//* As a User
+// When I see the nav bar on desktop
+// There is no burger (only Home/About/Contact/Blog)
+
+// As a User
+// When I see the nav bar on mobile
+// I see a burger
+
+// As a User
+// When I'm in mobile and  I click the burger
+// I see the nav appear below the header
+
+// As a User
+// When I click the burger again
+// I see the nav hide

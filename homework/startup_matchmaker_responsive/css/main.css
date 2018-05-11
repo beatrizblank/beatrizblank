@@ -113,7 +113,7 @@ header nav strong {
 
 .cta-container {
 	background: white;
-  display: flex;
+    display: flex;
 	padding: 28px 0;
 }
 
@@ -130,4 +130,36 @@ footer {
 	background: black;
 	color: white;
 	padding: 28px 43px;
+}
+
+#burger {
+
+	display: none;
+}
+
+nav {
+
+	display: none;
+}
+
+
+nav { 
+		display: none;
+	}
+
+@media screen and (max-width: 1000px;) {
+
+	nav { 
+
+		display: initial;
+	}
+
+	#burger {
+
+		display: initial;
+	}
+
+}	
+
+
 }

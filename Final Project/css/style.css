@@ -19,6 +19,10 @@ div {
 	justify-content: space-around;
 }
 
+#calculate {
+	height: 150px;
+}
+
 #salary {
 	width: 400px;
 }
