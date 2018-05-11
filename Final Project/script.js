@@ -2,14 +2,18 @@
 
 function calculateEggs() {
 
-	var eggsPrice = 300.000;
+	var eggsPrice = 600.000;
 
-	var salary = $("#salary").value();
+	var salaryInput = $("#salary").value();
 
-	var numberEggs = salary / eggsPrice;
+	var numberEggs = (salaryInput / eggsPrice);
+
+	$("#total-num-of-eggs-output").innerHTML = numberEggs;
 
 }
 
 $('#click-me').onclick(CalculateEggs);
 
-//*As a user, when a get a result the background img changes 
+//*As a user, when a get a result the background img changes (Maybe depending on the results)
+
+
