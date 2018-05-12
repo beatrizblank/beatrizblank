@@ -1,52 +1,16 @@
-body {
-    font-family: "Helvetica";
-   
-	 }
 
 h1 {
 
 	height: 100px;
-	font-family: Luckiest Guy;
-
-}
-
-h1, h2 {
+	font-family: bodoni 72;
+	font-weight: bold;
+	color: D39621;
 	text-align: center;
 
 }
 
-div {
+
+#info {
 	display: flex;
-	justify-content: space-around;
-}
-
-#calculate {
-	height: 150px;
-}
-
-#salary {
-	width: 400px;
-}
-
-#category {
-	width: 400px;
-}
-
-p {
-	text-align: center;
-}
-
-#result {
-
-	height: 100px;
-	text-align: center;
-	background-color: white;
-	color: black;
-	align-content: center;
-}
-
-#news {
-
-	height: 100px;
-	align-content: center;
+	justify-content-content: space-around;
 }

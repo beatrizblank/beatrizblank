@@ -1,4 +1,10 @@
 
+var professions = ["Architects", "Lawyers", "Doctors", "Professors"]
+ var coderDude = {
+  firstName: "Bobby", 
+  favDog: "Cody"
+ }
+
 function calculateEggs() {
 
   console.log("HEY")
