@@ -2,7 +2,7 @@
 function calculateEggs() {
 
   console.log("HEY")
-	var eggsPrice = 900.000;
+	var eggsPrice = 900000;
 
 	var salaryInput = $("#salary").val();
 
