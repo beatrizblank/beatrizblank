@@ -1,24 +1,48 @@
 
-var professions = ["Architects", "Lawyers", "Doctors", "Professors"]
- var coderDude = {
-  firstName: "Bobby", 
-  favDog: "Cody"
+ var architect = {
+
+ salary: "26"
+
  }
 
-function calculateEggs() {
+  var lawyer = {
 
-  console.log("HEY")
-	var eggsPrice = 900000;
+ salary: "29"
 
-	var salaryInput = $("#salary").val();
+ }
 
-	var numberEggs = (salaryInput / eggsPrice);
-console.log(numberEggs)
-	$("#total-num-of-eggs-output").html(numberEggs);
+  var doctor = {
 
+ salary: "33"
+
+ }
+
+   var professor = {
+
+ salary: "16"
+
+ }
+
+   var secretary = {
+
+ salary: "6"
+
+ }
+
+   var housekeeper = {
+
+ salary: "4"
+
+ }
+$("#professions").change(changeSalary);
+
+function changeSalary () {
+
+  $("#output").append(architect.salary);
 }
 
-$("#click-me").click(calculateEggs)
+
+
 
 
 
