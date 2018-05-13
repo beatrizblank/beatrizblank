@@ -1,21 +1,15 @@
+h1, .color {
 
-
-h1, h2 {
-
-	height: 100px;
 	font-family: abril fatface;
-	color: D39621;
 	text-align: left;
-
-}
-
-h1{
 	font-size: 80px;
 }
 
-h2 {
-	font-size: 40px;
 
+h2 {
+
+	font-family: helvetica;
+	font-size: 20px;
 }
 
 
@@ -40,4 +34,8 @@ footer {
 	height: 40px;
 	padding-top: 10px
 
+}
+
+.color {
+	color: rgba(211,150,33,100);
 }
