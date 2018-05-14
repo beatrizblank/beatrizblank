@@ -1,5 +1,5 @@
 
-$("#professions").change(architectsOutput);
+$("select value:architects").change(architectsOutput);
 
 
 function architectsOutput () {
@@ -11,12 +11,12 @@ function architectsOutput () {
 
 
 
-//$("#professions").click(removeSalary);
+$("#professions").click(removeSalary);
 
-//function removeSalary () {
- //$("#output").remove();
+function removeSalary () {
+ $("#output").empty();
 
-//}
+}
 
 
 
