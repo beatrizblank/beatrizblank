@@ -1,45 +1,23 @@
 
- var architect = {
+$("#professions").change(architectsOutput);
 
- salary: "26"
 
- }
+function architectsOutput () {
+ 
+ var architectsSalary = "29"
+ $("#output").append(architectsSalary);
 
-  var lawyer = {
-
- salary: "29"
-
- }
-
-  var doctor = {
-
- salary: "33"
-
- }
-
-   var professor = {
-
- salary: "16"
-
- }
-
-   var secretary = {
-
- salary: "6"
-
- }
-
-   var housekeeper = {
-
- salary: "4"
-
- }
-$("#professions").change(changeSalary);
-
-function changeSalary () {
-
-  $("#output").append(architect.salary);
 }
+
+
+
+//$("#professions").click(removeSalary);
+
+//function removeSalary () {
+ //$("#output").remove();
+
+//}
+
 
 
 
