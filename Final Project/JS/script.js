@@ -1,6 +1,7 @@
-$("#professions option[value="architects"]").change(architectsOutput);
+ 
+$("#professions").change(architectsOutput);
 
-console.log(.change)
+
 
 function architectsOutput () {
  
@@ -8,7 +9,7 @@ function architectsOutput () {
  $("#output").append(architectsSalary);
 
 }
-
+console.log(architectsOutput)
 
 $("#professions").click(removeSalary);
 
