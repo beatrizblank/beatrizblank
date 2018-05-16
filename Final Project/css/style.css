@@ -45,11 +45,6 @@ footer {
 
 }
 
-.video {
-
-	justify-content: center;
-}
-
 
 .yellow {
 	color: rgba(211,150,33,100);
@@ -89,6 +84,7 @@ footer { flex-direction: column;
 
 header 
 	{
+	
 		margin-right: : 40%;
 	}
 

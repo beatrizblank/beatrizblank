@@ -1,7 +1,25 @@
+$("#animate-me").click(bounceHeader);
+
+function bounceHeader () {
+
+	$("h1").animate({
+		"bounce": "infinite"
+	}, 5)
+}
 // As a User
 // When I click on the button
 // I want the header to bounce
 
+
+$("#shrink").click(shrinkGlobe);
+
+function shrinkGlobe () {
+
+	$("img").animate({
+		"width": "50px"
+		"hight": "10px"
+	}, 5000)
+}
 // As a User
 // When I click the "shrink" button
 // I want the globe to slowly shrink to be smaller than the button

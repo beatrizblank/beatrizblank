@@ -11,7 +11,6 @@ function architectsOutput () {
 }
 
 
-
 $("#professions").click(removeSalary);
 
 function removeSalary () {
