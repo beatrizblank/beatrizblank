@@ -5,11 +5,12 @@ $("#professions").change(architectsOutput);
 
 function architectsOutput () {
  
- var architectsSalary = "29"
- $("#output").append(architectsSalary);
+ var professionSalary = $("#professions").val();
+ $("#output").append(professionSalary);
 
 }
-console.log(architectsOutput)
+
+
 
 $("#professions").click(removeSalary);
 
