@@ -1,11 +1,6 @@
-$("#animate-me").click(bounceHeader);
-
-function bounceHeader () {
-
-	$("h1").animate({
-		"bounce": "infinite"
-	}, 5)
-}
+$("#animate-me").click(function() {
+ $("h1").addClass("animated bounce infinite");
+})
 // As a User
 // When I click on the button
 // I want the header to bounce
