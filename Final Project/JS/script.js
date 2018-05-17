@@ -4,6 +4,7 @@ $("#professions").change(architectsOutput);
 function architectsOutput () {
  
  var professionSalary = $("#professions").val();
+ $("#output").empty()
  $("#output").append(professionSalary);
  $(".show-info").show("slower");
 
@@ -13,10 +14,13 @@ $("#professions").click(changes);
 
 function changes (){
 
- $("#output").empty();
+ $("#output").css("font-size", "30px");
+  $(".groceries").css("font-size", 0);
+
  $("#output").animate({
     "font-size":"20px",
   }, 5500) 
+
 $(".groceries").animate({
     "font-size":"50px",
   }, 5500) 
