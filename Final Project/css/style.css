@@ -1,12 +1,25 @@
+body {
 
-h1, .yellow {
+	background-color: rgba(211,150,33,100);
+	color: white;
+}
+.container {
+  width: 90%;
+  max-width: 1295px;
+
+}
+
+h1, span {
 
 	font-family: abril fatface;
 	text-align: left;
-	font-size: 80px;
+	font-size: 70px;
 	font-weight: bold;
 }
-
+h1 {
+	width: 90%;
+	max-width: 1295px;
+}
 
 h2 {
 
@@ -15,15 +28,21 @@ h2 {
 	font-weight: normal;
 }
 
-main {
-	display: flex;
+h2 .yellow {
+	font-size: 40px;
 }
 
- header, footer {
+main {
+	display: flex;
+	width: 90%;
+	max-width: 1295px;
+}
+
+header, footer {
  
  	
-	margin-left: 70px;
- 	margin-right: 70px;
+	margin-left: 7%;
+ 	margin-right: 7%;
  	width: 90%;
 	max-width: 1295px;
  	
@@ -38,17 +57,22 @@ main {
 footer {
 
     display: flex;
-    justify-content: space-around;
-	
+    justify-content: space-between;
 	padding-top: 20px;
 	
 
 }
 
 .info {
-	width: 300px;
+	width: 28%;
+}
+.header {
+	width: 90%;
 }
 
+.show-info {
+	display: none;
+}
 
 .yellow {
 	color: rgba(211,150,33,100);
@@ -57,9 +81,6 @@ footer {
 	color: rgba(177,177,177,100);
 }
 
-h2 .yellow {
-	font-size: 40px;
-}
 
 .custom-select {
 
@@ -79,21 +100,34 @@ h2 .yellow {
 
 
 footer { flex-direction: column;
-}
-
 
 }
-
-@media screen and (max-width: 890px) {
-
-header 
-	{
-	
-		margin-right: : 40%;
+.info {
+	width: 100%;
+}
+ header {
+		margin-right: 0;
 	}
 
-footer { flex-direction: column;
+
 }
 
 
-}
+@media (max-width: 630px) {
+
+ header {
+		height: : 10%;
+	}
+
+	h1 {
+		flex-direction: column;
+		width: 100%;
+  }
+
+  .container {
+  	margin-right: 10%;
+  }
+	
+	   	    	}
+
+	
