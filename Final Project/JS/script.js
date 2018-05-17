@@ -5,7 +5,7 @@ function architectsOutput () {
  
  var professionSalary = $("#professions").val();
  $("#output").append(professionSalary);
- $(".show-info").show("slow");
+ $(".show-info").show("slower");
 
 }
 
@@ -32,8 +32,12 @@ function removeSalary () {
 
 
 $("#output").animate({
-    "font-size":"30px",
-  }, 5000) 
+    "font-size":"20px",
+  }, 5500) 
+
+$(".groceries").animate({
+    "font-size":"50px",
+  }, 5500) 
 
 
 

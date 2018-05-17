@@ -2,9 +2,10 @@ body {
 
 	background-color: rgba(211,150,33,100);
 	color: white;
+	margin-top: 5%;
 }
 .container {
-  width: 90%;
+  width: 100%;
   max-width: 1295px;
 
 }
@@ -13,18 +14,18 @@ h1, span {
 
 	font-family: abril fatface;
 	text-align: left;
-	font-size: 70px;
+	font-size: 30px;
 	font-weight: bold;
 }
 h1 {
-	width: 90%;
+	width: 100%;
 	max-width: 1295px;
 }
 
 h2 {
 
 	font-family: helvetica;
-	font-size: 28px;
+	font-size: 20px;
 	font-weight: normal;
 }
 
@@ -54,20 +55,30 @@ header, footer {
  
  }
 
+ select {
+
+ 	width: 100%;
+ }
+
 footer {
 
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 	padding-top: 20px;
 	
 
 }
 
+#output {
+	font-size: 30px;
+}
+
 .info {
-	width: 28%;
+	width: 100%;
 }
 .header {
-	width: 90%;
+	width: 100%;
 }
 
 .show-info {
@@ -96,38 +107,20 @@ footer {
 	padding-right: 30px;
 }
 
-@media screen and (max-width: 1050px) {
 
+@media (min-width: 730px) {
 
-footer { flex-direction: column;
-
-}
-.info {
-	width: 100%;
-}
- header {
-		margin-right: 0;
-	}
-
+footer { flex-direction: row;
 
 }
+	select {
 
+	width: 40%;
+}
 
-@media (max-width: 630px) {
-
- header {
-		height: : 10%;
-	}
-
-	h1 {
-		flex-direction: column;
-		width: 100%;
-  }
-
-  .container {
-  	margin-right: 10%;
-  }
-	
-	   	    	}
+#professions {
+	font-size: 30px;
+}
+}
 
 	
