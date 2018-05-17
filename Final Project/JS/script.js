@@ -33,11 +33,11 @@ function removeSalary () {
 
 $("#output").animate({
     "font-size":"20px",
-  }, 5500) 
+  }, 6000) 
 
 $(".groceries").animate({
     "font-size":"50px",
-  }, 5500) 
+  }, 6000) 
 
 
 
