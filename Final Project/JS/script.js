@@ -18,6 +18,10 @@ function removeSalary () {
 
 }
 
+$("#output").animate({
+    "font-size":"30px",
+  }, 5000)
+
 
 
 //*As a user, when a get a result the background img changes (Maybe depending on the results)

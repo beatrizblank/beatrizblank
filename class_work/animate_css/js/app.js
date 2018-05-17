@@ -1,4 +1,4 @@
-$("#animate-me").click(function() {
+$("#animate-me").click(function(){
  $("h1").addClass("animated bounce infinite");
 })
 // As a User

@@ -45,6 +45,10 @@ footer {
 
 }
 
+.info {
+	width: 300px;
+}
+
 
 .yellow {
 	color: rgba(211,150,33,100);
@@ -71,7 +75,7 @@ h2 .yellow {
 	padding-right: 30px;
 }
 
-@media screen and (max-width: 1320px) {
+@media screen and (max-width: 1050px) {
 
 
 footer { flex-direction: column;
