@@ -15,7 +15,7 @@ $("#professions").click(changes);
 function changes (){
 
  $("#output").css("font-size", "30px");
-  $(".groceries").css("font-size", 0);
+ $(".groceries").css("font-size", 0);
 
  $("#output").animate({
     "font-size":"20px",
