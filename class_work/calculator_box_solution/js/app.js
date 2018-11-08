@@ -62,7 +62,7 @@ minusTwentyButton.click(subtractTwenty)
 function subtractTwenty() {
 	total = total - 20;
 
-	$("#out").innerHTML = total;
+	$("#out").html(total)
 }
 
 // -30
@@ -74,7 +74,7 @@ minusThirtyButton.click(subtractThirty)
 function subtractThirty() {
 	total = total - 30;
 
-	$("#out").innerHTML = total;
+	$("#out").hmtl(total)
 }
 
 // red

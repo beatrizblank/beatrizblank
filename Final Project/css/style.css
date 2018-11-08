@@ -10,7 +10,7 @@ body {
 
 }
 
-h1, span {
+h1, span, #news {
 
 	font-family: abril fatface;
 	text-align: left;
@@ -22,7 +22,7 @@ h1 {
 	max-width: 1295px;
 }
 
-h2 {
+h2  {
 
 	font-family: helvetica;
 	font-size: 20px;
@@ -39,20 +39,25 @@ main {
 	max-width: 1295px;
 }
 
-header, footer {
- 
- 	
+header, footer, #news {
+
 	margin-left: 7%;
  	margin-right: 7%;
  	width: 90%;
 	max-width: 1295px;
- 	
+
+ }
+
+ img {
+	 margin-top: 3%;
+	 margin-left: 7%;
+   margin-right: 7%;
  }
 
  header {
 
- 	border-bottom: 3px solid black; 
- 
+ 	border-bottom: 3px solid black;
+
  }
 
  select {
@@ -66,9 +71,19 @@ footer {
     flex-direction: column;
     justify-content: space-between;
 	padding-top: 20px;
-	
+
 
 }
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: grey;
+}
+
 
 #output {
 	font-size: 30px;
@@ -96,7 +111,7 @@ footer {
 .custom-select {
 
  	url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
- 	
+
  	}
 
 .nav-container {
@@ -123,5 +138,3 @@ footer { flex-direction: row;
 }
 
 }
-
-	
