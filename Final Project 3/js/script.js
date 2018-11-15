@@ -51,20 +51,18 @@ $.ajax({
     var currArticle = articles[i];
     var multimedia =  currArticle.multimedia;
     var image = multimedia.find(function(media) {
-      return media.subType === "xlarge";
+      return media.subType === "wide";
     });
     image = image || multimedia[0];
     if (image && image.url) {
       var fullUrl = `https://static01.nyt.com/${image.url}`
       var imageMarkup = `<img src="${fullUrl}">`;
     } else {
-     var imageMarkup = "";
+      var imageMarkup = "";
     }
 
     var infoMarkup = `<a href="${articles[i].web_url}">
-    <h1>${articles[i].headline.main}</h1>
-    <p class="smaller">${articles[i].snippet}</p>
-    <p class="smaller">${articles[i].pub_date}</p>
+    <h2 class="smaller">${articles[i].snippet}</h2>
     ${imageMarkup}
     </a>`
     $("#news").append(infoMarkup);

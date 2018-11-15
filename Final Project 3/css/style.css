@@ -54,9 +54,6 @@ header, .middle , #news, #title, footer {
 	flex-direction: column;
 }
 
-#news {
-	padding-bottom: 15px;
-}
  header, .middle, #title, #news {
 
  	border-bottom: 4px double black;
@@ -116,10 +113,8 @@ a:hover {
 	width: 100%;
 }
 .smaller {
-	font-size: 13px;
+	font-size: 15px;
 	text-align: justify;
-	font-weight: lighter;
-
 }
 
 .bigger {
@@ -148,14 +143,6 @@ a:hover {
 	width: 85%;
 }
 
-img {
-	width: 330px;
-}
-
-#nyt {
-	width: 120px;
-}
-
 /* .center {
 	padding-right: 30px;
 } */
@@ -174,10 +161,6 @@ img {
 
 #professions {
 	font-size: 30px;
-}
-
-#nyt {
-	widht: 40px;
 }
 
 }
