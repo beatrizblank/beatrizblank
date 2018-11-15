@@ -62,7 +62,7 @@ $.ajax({
     }
 
     var infoMarkup = `<a href="${articles[i].web_url}">
-    <h2>${articles[i].snippet}</h2>
+    <h2 class="smaller">${articles[i].snippet}</h2>
     ${imageMarkup}
     </a>`
     $("#news").append(infoMarkup);
