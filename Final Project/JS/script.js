@@ -24,7 +24,6 @@ function changes() {
 $(".groceries").animate({
     "font-size":"50px",
   }, 5500)
-$("body").css("background-color", "white");
 $("body").css("color", "black");
 $("a").css("color", "black");
 $(".percentage").removeClass("grey");
@@ -46,16 +45,25 @@ $.ajax({
   method: 'GET',
 }).done(function(data) {
   var articles = data.response.docs;
-  // function getImages(){
-  // return _.find(data.response.docs.multimedia, function(image) {
-  //   return image === url;
-  // });
- //var callImg = getImages();
 
   for (var i = 0; i < articles.length; i++) {
   //articles.forEach(article, function(){
+    var currArticle = articles[i];
+    var multimedia =  currArticle.multimedia;
+    var image = multimedia.find(function(media) {
+      return media.subType === "wide";
+    });
+    image = image || multimedia[0];
+    if (image && image.url) {
+      var fullUrl = `https://static01.nyt.com/${image.url}`
+      var imageMarkup = `<img src="${fullUrl}">`;
+    } else {
+      var imageMarkup = "";
+    }
+
     var infoMarkup = `<a href="${articles[i].web_url}">
-    <h1>${articles[i].snippet}</h1>
+    <h2>${articles[i].snippet}</h2>
+    ${imageMarkup}
     </a>`
     $("#news").append(infoMarkup);
   };
@@ -63,17 +71,26 @@ $.ajax({
   throw err;
 });
 
-var url = "https://s3.amazonaws.com/dolartoday/data.json";
+var secondUrl = "https://s3.amazonaws.com/dolartoday/data.json";
 
 $.ajax( {
-  url: url,
+  url: secondUrl,
   method: 'GET',
 }).done(function(data) {
-  debugger;
   console.log(data);
    var dolar = data.USD;
-   var dolarMarkup = `<p>1 dolar equals ${dolar.transferencia} Bs.</p>`
-   $("news").prepend(dolarMarkup);
+   var dolarMarkup = `<a href="https://dolartoday.com/"><h1>1 dollar equals ${dolar.transferencia} Bs.</h1><a>`
+   $("#title").append(dolarMarkup);
+
+   function calculateMinSalInDollars() {
+   var minimunWage = 1800.00;
+   var dolarValue = dolar.transferencia;
+   return minimunWage / dolarValue;
+   }
+   var value = calculateMinSalInDollars();
+   var val = value.toFixed(2);
+
+    $(".minimunWageOutput").prepend(val);
 
 });
 

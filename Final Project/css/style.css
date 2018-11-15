@@ -1,7 +1,5 @@
 body {
-
-	background-color: rgba(211,150,33,100);
-	color: white;
+	color: black;
 	margin-top: 5%;
 }
 .container {
@@ -14,12 +12,16 @@ h1, span, #news {
 
 	font-family: abril fatface;
 	text-align: left;
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: bold;
 }
 h1 {
 	width: 100%;
 	max-width: 1295px;
+}
+
+p {
+	display: flex;
 }
 
 h2  {
@@ -33,13 +35,13 @@ h2 .yellow {
 	font-size: 40px;
 }
 
-main {
+main, #title {
 	display: flex;
 	width: 90%;
 	max-width: 1295px;
 }
 
-header, footer, #news {
+header, footer, #news, #title {
 
 	margin-left: 7%;
  	margin-right: 7%;
@@ -47,14 +49,12 @@ header, footer, #news {
 	max-width: 1295px;
 
  }
+#title {
+	display: flex;
+	flex-direction: column;
+}
 
- img {
-	 margin-top: 3%;
-	 margin-left: 7%;
-   margin-right: 7%;
- }
-
- header {
+ header, footer {
 
  	border-bottom: 3px solid black;
 
@@ -63,6 +63,16 @@ header, footer, #news {
  select {
 
  	width: 100%;
+	-webkit-appearance: none;
+	appearance: none;
+	border: 0;
+	color: rgba(211,150,33,100);
+	background: white;
+
+ }
+
+ select option {
+	 background-color: black;
  }
 
 footer {
@@ -70,13 +80,13 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-	padding-top: 20px;
-
+	  padding-top: 20px;
+		padding-bottom: 20px;
 
 }
 
 a {
-	color: white;
+	color: black;
 	text-decoration: none;
 }
 
@@ -125,12 +135,13 @@ a:hover {
 
 @media (min-width: 730px) {
 
-footer { flex-direction: row;
-
-}
 	select {
 
-	width: 40%;
+	width: 25%;
+}
+
+footer {
+	flex-direction: row;
 }
 
 #professions {
