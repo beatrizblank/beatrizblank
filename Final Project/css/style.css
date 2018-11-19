@@ -152,11 +152,14 @@ img {
 	width: 330px;
 }
 #nyt {
-	width: 210px;
+	width: 180px;
 }
 
 #professions {
 	text-align: center;
+}
+#professions:focus {
+	outline: none;
 }
 
 .bold {
@@ -236,6 +239,5 @@ footer {
 	justify-content: space-between;
 	margin-top: 15px;
 	margin-bottom: 15px;
-
 }
 }
