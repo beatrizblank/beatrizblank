@@ -2,16 +2,14 @@ body {
 	color: black;
 	margin-top: 5%;
 }
+
 .container {
   width: 100%;
   max-width: 1295px;
-
 }
 
 h1, span, #news {
-
 	font-family: abril fatface;
-	/* text-align: left; */
 	font-size: 25px;
 	font-weight: bold;
 }
@@ -25,7 +23,6 @@ p {
 }
 
 h2  {
-
 	font-family: helvetica;
 	font-size: 20px;
 	font-weight: normal;
@@ -34,7 +31,6 @@ h2  {
 h2 .yellow {
 	font-size: 40px;
 }
-
 main, #title {
 	display: flex;
 	width: 90%;
@@ -42,37 +38,54 @@ main, #title {
 }
 
 header, .middle , #news, #title, footer {
-
 	margin-left: 7%;
  	margin-right: 7%;
  	width: 90%;
 	max-width: 1295px;
-
  }
+
 #title {
 	display: flex;
 	flex-direction: column;
+  justify-content: space-between;
+	align-items: flex-start;
+	height: 770px;
 }
 
-#news {
+header {
+	height: 430px;
+}
+
+.medium {
+	font-size: 33px;
+}
+
+#nytApi {
 	padding-bottom: 15px;
 }
- header, .middle, #title, #news {
 
+ header, .middle, #title, #nytApi {
  	border-bottom: 4px double black;
-
  }
 
-
  select {
-
  	width: 100%;
 	-webkit-appearance: none;
 	appearance: none;
 	border: 0;
-	color: rgba(211,150,33,100);
 	background: white;
+ }
 
+ #selectImage select {
+	 background: transparent;
+ }
+
+ #selectImage::after {
+ 	content: " \f13a ";
+	font-family: "FontAwesome";
+	position: absolute;
+	left:330px;
+	z-index: -1;
  }
 
  select option {
@@ -80,20 +93,12 @@ header, .middle , #news, #title, footer {
  }
 
 .middle {
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 	  padding-top: 20px;
 		padding-bottom: 20px;
-		/* background-color: rgba(230, 237, 243, 1); */
-
 }
-
-.middle div {
-	background-color: rgba(230, 237, 243, 1);
-}
-
 
 a {
 	color: black;
@@ -112,36 +117,31 @@ a:hover {
 .info {
 	width: 100%;
 }
+
 .header {
 	width: 100%;
 }
+
 .smaller {
 	font-size: 13px;
-	text-align: justify;
 	font-weight: lighter;
-
 }
 
 .bigger {
-	font-size: 35px;
-}
-.show-info {
-	display: none;
-	text-align: justify;
+	font-size: 55px;
 }
 
-.yellow {
-	color: rgba(12, 12, 145, 1);
+.show-info {
+	display: none;
+	/* text-align: justify; */
 }
+
 .grey {
 	color: rgba(177,177,177,100);
 }
 
-
 .custom-select {
-
  	url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
-
  	}
 
 .nav-container {
@@ -151,20 +151,37 @@ a:hover {
 img {
 	width: 330px;
 }
-
 #nyt {
-	width: 120px;
+	width: 210px;
 }
 
-/* .center {
-	padding-right: 30px;
-} */
+#professions {
+	text-align: center;
+}
 
+.bold {
+	font-weight: bold;
+}
+
+.scrollToTop {
+	content: " \f139";
+	font-family: "FontAwesome";
+	position: fixed;
+	bottom: 80px;
+	right: 50px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	display: none;
+}
+
+.fas {
+	font-style: normal;
+}
 
 @media (min-width: 730px) {
-
 	select {
-
 	width: 25%;
 }
 
@@ -172,12 +189,53 @@ img {
 	flex-direction: row;
 }
 
+#title h1 {
+	font-size: 90px;
+}
+
+#title {
+	height: 700px;
+}
+
+header {
+	height: 300px;
+}
+
+#news {
+	display: flex;
+	flex-direction: column;
+}
+
+#nytApi {
+	display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+	justify-content: space-between;
+}
+
+#nytApi div {
+	width: 30%;
+}
+
 #professions {
 	font-size: 30px;
 }
 
-#nyt {
-	widht: 40px;
+#selectImage::after {
+ content: " \f13a ";
+ font-family: "FontAwesome";
+ position: absolute;
+ /* right: .5rem; */
+ left:360px;
+ z-index: -1;
 }
 
+footer {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+}
 }

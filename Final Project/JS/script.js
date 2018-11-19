@@ -1,7 +1,20 @@
 
-$("#professions").change(architectsOutput);
+$(document).ready(function(){
+  $(window).scroll(function(){
+    if($(this).scrollTop() > 200) {
+      $('.scrollToTop').fadeIn();
+    } else {
+      $('.scrollToTop').fadeOut();
+    }
+  });
+  $(".scrollToTop").click(function(){
+    $("html,body").animate({scrollTop: 0}, 1000)
+  })
+});
 
-function architectsOutput () {
+$("#professions").change(professionsOutput);
+
+function professionsOutput () {
 
  var professionSalary = $("#professions").val();
  $("#output").empty()
@@ -26,13 +39,11 @@ $(".groceries").animate({
   }, 5500)
 $("body").css("color", "black");
 $("a").css("color", "black");
-$(".percentage").removeClass("grey");
-$(".percentage").addClass("yellow");
-$("#news").addClass("yellow");
-$("#professions").removeClass("grey");
-$("#professions").addClass("yellow");
-
 }
+
+var today = (new Date()).toString().split(' ').splice(1,3).join(' ');
+var date = `<p class="smaller">${today}</p>`
+$("#title").prepend(date);
 
 var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
 url += '?' + $.param({
@@ -57,17 +68,17 @@ $.ajax({
     if (image && image.url) {
       var fullUrl = `https://static01.nyt.com/${image.url}`
       var imageMarkup = `<img src="${fullUrl}">`;
+      var infoMarkup = `<div><a href="${articles[i].web_url}">
+      <h1>${articles[i].headline.main}</h1>
+      <p class="smaller">${articles[i].snippet}</p>
+      <p class="smaller bold">${articles[i].source}</p>
+      <p class="smaller grey">${articles[i].pub_date}</p>
+      ${imageMarkup}
+      </a><div>`
+      $("#nytApi").append(infoMarkup);
     } else {
-     var imageMarkup = "";
+     var infoMarkup = "";
     }
-
-    var infoMarkup = `<a href="${articles[i].web_url}">
-    <h1>${articles[i].headline.main}</h1>
-    <p class="smaller">${articles[i].snippet}</p>
-    <p class="smaller">${articles[i].pub_date}</p>
-    ${imageMarkup}
-    </a>`
-    $("#news").append(infoMarkup);
   };
 }).fail(function(err) {
   throw err;
@@ -95,6 +106,3 @@ $.ajax( {
     $(".minimunWageOutput").prepend(val);
 
 });
-
-
-//*As a user, when a get a result the background img changes (Maybe depending on the results)
