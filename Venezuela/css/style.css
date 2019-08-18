@@ -1,0 +1,295 @@
+body {
+	color: black;
+}
+
+#inVenezuela, #minimunWage, #calculate, .info, #nytNews, footer, .findOutMore{
+	padding: 4%;
+}
+
+.container {
+  width: 100%;
+  max-width: 729px;
+}
+
+h1, span, #news {
+	font-family: Cooper Hewitt;
+	font-size: 25px
+	/* font-weight: bold; */
+}
+/* h1 {
+	width: 100%;
+	max-width: 1400px;
+} */
+
+.bigger {
+	font-size: 70px;
+}
+
+p {
+	display: flex;
+}
+
+h2  {
+	font-family: helvetica;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+h2 .yellow {
+	font-size: 40px;
+}
+main {
+	display: flex;
+	width: 90%;
+}
+
+header, .middle , #news, #title, footer {
+ 	width: 100%;
+ }
+
+ #dolarValue:hover {
+   background: none;
+   color: red;
+   font-family: 'Creepster', regular;
+   font-size: 70px;;
+   letter-spacing: 3px;
+   line-height: .75em;
+ }
+
+#title {
+	display: flex;
+	flex-direction: column;
+  justify-content: space-between;
+	align-items: flex-start;
+	height: 1500px;
+}
+
+/* .gasImage {
+	width: 100%;
+	height: 100%;
+} */
+
+header {
+	height: 430px;
+	width: 92%;
+}
+
+.medium {
+	font-size: 33px;
+
+}
+
+#nytApi {
+	padding-bottom: 15px;
+}
+
+ header, .middle, #title, #nytApi {
+ 	border-bottom: 4px solid black;
+ }
+
+ select {
+ 	width: 100%;
+	-webkit-appearance: none;
+	appearance: none;
+	border: 0;
+	background: white;
+ }
+
+ #selectImage select {
+	 background: transparent;
+ }
+
+ #selectImage::after {
+ 	content: " \f13a ";
+	font-family: "FontAwesome";
+	position: absolute;
+	left:330px;
+	z-index: -1;
+ }
+
+ select option {
+	 background-color: black;
+ }
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	  padding-top: 20px;
+		padding-bottom: 20px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: grey;
+}
+
+
+#output {
+	font-size: 30px;
+}
+
+.info {
+	width: 100%;
+}
+
+.smaller {
+	font-size: 13px;
+	font-weight: lighter;
+}
+
+.show-info {
+	display: none;
+	/* text-align: justify; */
+}
+
+.grey {
+	color: rgba(177,177,177,100);
+}
+
+.custom-select {
+ 	url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+ 	}
+
+.nav-container {
+	width: 85%;
+}
+
+img {
+	width: 330px;
+}
+/* #nyt {
+	width: 180px;
+} */
+
+#professions {
+	text-align: center;
+}
+#professions:focus {
+	outline: none;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.scrollToTop {
+	content: " \f139";
+	font-family: "FontAwesome";
+	position: fixed;
+	bottom: 80px;
+	right: 85px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	display: none;
+}
+
+.fas {
+	font-style: normal;
+}
+
+@media (min-width: 730px) {
+
+.container {
+	max-width: 1400px;
+}
+
+body {
+	margin: 0%;
+}
+
+main {
+	width: 100%;
+}
+
+select {
+	width: 25%;
+}
+
+#inVenezuela, #minimunWage, #calculate, .info {
+	padding: 3%;
+}
+
+#inVenezuela, #minimunWage {
+	height: 400px;
+	width: 720px;
+}
+
+.gasImage {
+	width: 100%;
+}
+
+#nytNews, footer {
+	padding-left: 2%
+}
+
+
+.middle, #title  {
+	flex-direction: row;
+}
+
+#title h1 {
+	font-size: 90px;
+}
+
+#title {
+	height: 800px;
+}
+
+
+header {
+	width: 94%;
+}
+
+#news {
+	display: flex;
+	flex-direction: column;
+}
+
+#nytApi {
+	display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+	justify-content: space-between;
+}
+
+#nytApi div {
+	width: 20%;
+}
+
+#professions {
+	font-size: 30px;
+}
+
+#selectImage::after {
+ content: " \f13a ";
+ font-family: "FontAwesome";
+ position: absolute;
+ /* right: .5rem; */
+ left:360px;
+ z-index: -1;
+}
+
+footer {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#dolarValue:hover {
+	background: none;
+	color: red;
+	font-family: 'Creepster', regular;
+	font-size: 90px;
+	letter-spacing: 3px;
+	line-height: .75em;
+}
+
+}
