@@ -2,16 +2,15 @@ body {
 	color: black;
 }
 
-#inVenezuela, #minimunWage, #calculate, .info, #nytNews, footer, .findOutMore, .poverty {
+.headerDiv, #calculate, .info, #nytNews, footer, .findOutMore {
 	padding: 4%;
 }
 
-#inVenezuela h1 {
-
-	height: 800px;
+.headerLeft h1 {
+	height: auto;
 	}
 
-#minimunWage h1 {
+.headers h1 {
 	height: auto;
 }
 
@@ -52,8 +51,12 @@ main {
 	width: 90%;
 }
 
-header, .middle , #news, #title, #titleSecond, footer {
+header, .middle , #news, .headers {
  	width: 100%;
+ }
+
+ footer {
+	 width: auto;
  }
 
  #dolarValue:hover {
@@ -65,29 +68,17 @@ header, .middle , #news, #title, #titleSecond, footer {
    line-height: .75em;
  }
 
-#title, #titleSecond {
+ header {
+ 	height: 430px;
+ 	width: 92%;
+ }
+
+.headers {
 	display: flex;
 	flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-around; */
 	align-items: flex-start;
-	height: 1500px;
-}
-
-#titleSecond {
-	display: flex;
-	flex-direction: column;
-  justify-content: space-between;
-	align-items: flex-start;
-	height: 1500px;
-}
-
-/* .gasImage {
-	height: 100%;
-} */
-
-header {
-	height: 430px;
-	width: 92%;
+	height: 1350px;
 }
 
 .medium {
@@ -99,7 +90,7 @@ header {
 	padding-bottom: 15px;
 }
 
- header, .middle, #title, #titleSecond, #nytApi {
+ header, .middle, .headers, #nytApi {
  	border-bottom: 4px solid black;
  }
 
@@ -209,15 +200,15 @@ img {
 .fas {
 	font-style: normal;
 }
-.gasImage, .povertyImage {
+.headerImage {
 	width: 100%;
 }
-.gasImage {
+/* .gasImage {
 	height: 85%;
 }
 .povertyImage {
 	height: 100%;
-}
+} */
 @media (min-width: 730px) {
 
 .container {
@@ -236,18 +227,18 @@ select {
 	width: 25%;
 }
 
-#inVenezuela, #minimunWage, #calculate, .info, .poverty {
+.headerDiv, .info{
 	padding: 3%;
 }
 
-#inVenezuela, #minimunWage, .poverty {
+.headerDiv {
 	height: 700px;
 	width: 720px;
 }
 
-.gasImage, .povertyImage {
+.headerImage {
 	width: 90%;
-	height: 90%;
+	height: 100%;
 }
 
 #nytNews, footer {
@@ -255,15 +246,15 @@ select {
 }
 
 
-.middle, #title, #titleSecond  {
+.middle, .headers {
 	flex-direction: row;
 }
 
-#title h1, #titleSecond h1 {
+.headers h1, .headers h1 {
 	font-size: 90px;
 }
 
-#title, #titleSecond {
+.headers {
 	height: 800px;
 }
 
@@ -305,8 +296,6 @@ footer {
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: space-between;
-	margin-top: 15px;
-	margin-bottom: 15px;
 }
 #dolarValue:hover {
 	background: none;
