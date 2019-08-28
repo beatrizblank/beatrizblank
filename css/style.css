@@ -59,14 +59,14 @@ header, .middle , #news, .headers {
 	 width: auto;
  }
 
- #dolarValue:hover {
+ /* #dolarValue:hover {
    background: none;
    color: red;
    font-family: 'Creepster', regular;
    font-size: 70px;;
    letter-spacing: 3px;
    line-height: .75em;
- }
+ } */
 
  header {
  	height: 430px;
