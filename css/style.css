@@ -51,7 +51,7 @@ main {
 	width: 90%;
 }
 
-header, .middle , #news, .headers {
+#calculate, .middle , #news, .headers {
  	width: 100%;
  }
 
@@ -68,8 +68,8 @@ header, .middle , #news, .headers {
    line-height: .75em;
  } */
 
- header {
- 	height: 430px;
+ #calculate {
+ 	height: 600px;
  	width: 92%;
  }
 
@@ -90,7 +90,7 @@ header, .middle , #news, .headers {
 	padding-bottom: 15px;
 }
 
- header, .middle, .headers, #nytApi {
+ #calculate, .middle, .headers, #nytApi {
  	border-bottom: 4px solid black;
  }
 
@@ -259,7 +259,7 @@ select {
 }
 
 
-header {
+#calculate {
 	width: 94%;
 }
 
