@@ -231,6 +231,10 @@ select {
 	width: 25%;
 }
 
+.middle {
+	height: 200px;
+}
+
 .headerDiv, .info{
 	padding: 3%;
 }
