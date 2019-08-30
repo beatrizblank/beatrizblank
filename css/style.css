@@ -28,10 +28,6 @@ h1, span, #news {
 	font-size: 25px
 	/* font-weight: bold; */
 }
-/* h1 {
-	width: 100%;
-	max-width: 1400px;
-} */
 
 .bigger {
 	font-size: 70px;
@@ -50,6 +46,7 @@ h2  {
 h2 .yellow {
 	font-size: 40px;
 }
+
 main {
 	display: flex;
 	width: 90%;
@@ -128,7 +125,7 @@ main {
     justify-content: space-between;
 	  padding-top: 20px;
 		padding-bottom: 20px;
-		height: 200px;
+		height: 500px;
 }
 
 a {
@@ -174,6 +171,7 @@ a:hover {
 img {
 	width: 330px;
 }
+
 #nyt {
 	width: 180px;
 }
@@ -209,10 +207,10 @@ img {
 	width: 104%;
 }
 .gasImage {
-	height: 75%;
+	height: 95%;
 }
 .povertyImage {
-	height: 65%;
+	height: 95%;
 }
 
 @media (min-width: 730px) {
