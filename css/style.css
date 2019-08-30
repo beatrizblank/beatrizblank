@@ -2,8 +2,12 @@ body {
 	color: black;
 }
 
-.headerDiv, #calculate, .info, #nytNews, footer, .findOutMore {
+.headerDiv, #calculate, .info, #nytNews, footer {
 	padding: 4%;
+}
+
+.findOutMore {
+   padding: 1.5%;
 }
 
 .headerLeft h1 {
@@ -124,6 +128,7 @@ main {
     justify-content: space-between;
 	  padding-top: 20px;
 		padding-bottom: 20px;
+		height: 200px;
 }
 
 a {
@@ -201,14 +206,15 @@ img {
 	font-style: normal;
 }
 .headerImage {
-	width: 100%;
+	width: 104%;
 }
-/* .gasImage {
-	height: 85%;
+.gasImage {
+	height: 75%;
 }
 .povertyImage {
-	height: 100%;
-} */
+	height: 65%;
+}
+
 @media (min-width: 730px) {
 
 .container {
@@ -237,7 +243,7 @@ select {
 }
 
 .headerImage {
-	width: 90%;
+	width: 104%;
 	height: 100%;
 }
 
@@ -254,13 +260,22 @@ select {
 	font-size: 90px;
 }
 
+marquee h2 {
+	font-size: 30px;
+}
+
+marquee {
+	height: 200px;
+}
+
 .headers {
 	height: 800px;
 }
 
 
 #calculate {
-	width: 94%;
+	height: 300px;
+	width: 92%;
 }
 
 #news {
@@ -276,7 +291,7 @@ select {
 }
 
 #nytApi div {
-	width: 20%;
+	width: 25%;
 }
 
 #professions {
