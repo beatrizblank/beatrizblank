@@ -91,8 +91,8 @@ $.ajax( {
 }).done(function(data) {
   console.log(data);
    var dolar = data.USD;
-   var dolarMarkup = `<a href="https://dolartoday.com/"><h1 id="dolarValue">1 dollar equals ${dolar.transferencia} Bs.</h1><a>`
-  /*$("#title").append(dolarMarkup);*/
+   var dolarMarkup = `<a href="https://dolartoday.com/"><h1 class="bigger">1 dollar equals ${dolar.transferencia} VEF.</h1><a>`
+  $("#dolarToday").append(dolarMarkup);
 
    function calculateMinSalInDollars() {
    var minimunWage = 18000.00;
@@ -104,6 +104,6 @@ $.ajax( {
   // var minWageMarkup = `<h1 class="bigger">Yet the minimun wage is ${val}</h1>`
 
     $(".minimunWageOutput").prepend(val);
-    $("#minimunWage").append(minWageMarkup);
+    // $("#minimunWage").append(minWageMarkup);
 
 });

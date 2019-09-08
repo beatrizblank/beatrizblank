@@ -2,7 +2,7 @@ body {
 	color: black;
 }
 
-.headerDiv, #calculate, .info, #nytNews, footer {
+.headerDiv, #calculate, .info, #nytNews, footer, #dolarToday {
 	padding: 4%;
 }
 
@@ -70,7 +70,7 @@ main {
  } */
 
  #calculate {
- 	height: 650px;
+ 	height: 425px;
  	width: 92%;
  }
 
@@ -85,11 +85,15 @@ main {
 
 }
 
+#dolarToday {
+	text-align: center;
+}
+
 #nytApi {
 	padding-bottom: 15px;
 }
 
- #calculate, .middle, .headers, #nytApi {
+ #calculate, .middle, .headers, #nytApi, #dolarToday {
  	border-bottom: 4px solid black;
  }
 
@@ -260,13 +264,6 @@ select {
 	font-size: 90px;
 }
 
-marquee h2 {
-	font-size: 30px;
-}
-
-marquee {
-	height: 200px;
-}
 
 .headers {
 	height: 800px;
@@ -311,14 +308,4 @@ footer {
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: space-between;
-}
-#dolarValue:hover {
-	background: none;
-	color: red;
-	font-family: 'Creepster', regular;
-	font-size: 90px;
-	letter-spacing: 3px;
-	line-height: .75em;
-}
-
 }
