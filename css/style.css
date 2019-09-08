@@ -77,9 +77,7 @@ main {
 .headers {
 	display: flex;
 	flex-direction: column;
-  /* justify-content: space-around; */
 	align-items: flex-start;
-	height: 1350px;
 }
 
 .medium {
@@ -245,7 +243,7 @@ select {
 }
 
 .headerImage {
-	width: 104%;
+	width: 100%;
 	height: 100%;
 }
 
